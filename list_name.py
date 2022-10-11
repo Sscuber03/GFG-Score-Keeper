@@ -1,3 +1,6 @@
+
+#THIS CODE IS STILL UNDER CONSTRUCTION AND HAS NO PORPOSE CURRENTLY
+
 import requests
 import pandas as pd #needed for table scraping
 from bs4 import BeautifulSoup

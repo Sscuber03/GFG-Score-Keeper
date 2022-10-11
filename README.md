@@ -1,0 +1,1 @@
+This project helps us to find the current total score in GFG of any user given in the list in the excel sheet. 

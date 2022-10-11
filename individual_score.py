@@ -1,6 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 
+#gets userurl as an argument and returns the total score of the user from their gfg account
 def get_score(userurl):
     r = requests.get(userurl)
 

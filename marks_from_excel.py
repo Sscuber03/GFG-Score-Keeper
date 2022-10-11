@@ -1,3 +1,5 @@
+#this program gets the list of user profile link from an excel sheet, and add their updated marks to the excel sheet itself.
+
 import individual_score as inds
 
 from openpyxl import Workbook, load_workbook
