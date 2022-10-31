@@ -9,4 +9,7 @@ def get_score(userurl):
 
     s = soup.find('span', class_='score_card_value')
 
-    return s.text
+    if s is not None:
+        return s.text
+    else:
+        return "-1" # for any error in link
